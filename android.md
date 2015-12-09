@@ -14,3 +14,5 @@
 `adb shell am instrument -w <test_package_name>/android.test.InstrumentationTestRunner`
 * Run a specific test class<br>
 `adb shell am instrument -w -e class <class_name> <test_package_name>/android.test.InstrumentationTestRunner`
+* Run a specific test class and test method<br>
+* `adb shell am instrument -w -e class <class_name>#<method_name> <test_package_name>/android.test.InstrumentationTestRunner`
