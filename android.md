@@ -6,6 +6,8 @@
 `adb -s <device_serialNumber> <command>`
 * Install an application<br>
 `adb install <path_to_apk>`
+* Uninstall an application<br>
+`adb uninstall <application_package>`
 * Stop the adb server<br>
 `adb kill-server`
 * Run test on a device or emulator<br>
