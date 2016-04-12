@@ -5,3 +5,5 @@
 `git revert <commit_SHA>`
 * Copy a commit from another branch<br>
 `git cherry-pick <commit_SHA>`
+* Update submodules
+`git submodule foreach git pull origin master`
